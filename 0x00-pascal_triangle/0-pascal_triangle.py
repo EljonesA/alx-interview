@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+'''
+This module contains a function that generates pascal's triangle of size n
+'''
 
 
 def pascal_triangle(n):
