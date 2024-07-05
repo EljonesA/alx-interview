@@ -1,4 +1,14 @@
+!#/usr/bin/python3
+"""
+method that determines if all the boxes can be opened.
+"""
+
+
 def canUnlockAll(boxes):
+    """
+    method that determines if all the boxes can be opened.
+    :param - boxes: list of lists
+    """
     n = len(boxes)
     opened = set()
     queue = [0]
