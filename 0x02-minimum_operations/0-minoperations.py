@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+'''
+Minimum operations
+'''
 
 
 def minOperations(n):
