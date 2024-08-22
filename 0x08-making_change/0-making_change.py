@@ -10,7 +10,7 @@ def makeChange(coins, total):
     if total <= 0:
         return 0
 
-    # initialize the dp array
+    # Initialize dp array with a large value
     dp = [total + 1] * (total + 1)
     dp[0] = 0
 
