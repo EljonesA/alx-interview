@@ -1,4 +1,17 @@
+#!/usr/bin/python3
+''' island perimeter challenge '''
+
+
 def island_perimeter(grid):
+    '''
+    Calculate the perimeter of the island described in the grid.
+
+    Args: Grid - A 2D list representing the grid where:
+                - 0 represents water.
+                - 1 represents land.
+
+    Returns: The perimeter of the island.
+    '''
     perimeter = 0
     rows = len(grid)
     cols = len(grid[0])
